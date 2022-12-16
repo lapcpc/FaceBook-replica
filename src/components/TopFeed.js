@@ -70,7 +70,7 @@ function TopFeed() {
             {/*Historiias*/}
                 <div className=' flex flex-row'>
                     {imgs.map((img)=>(
-                        <div className='transition ease-in duration-100 delay-200 hover:scale-110  bg-white shadow-lg rounded-md w-28 h-48 m-2'>
+                        <div className='  bg-white shadow-lg rounded-md w-28 h-48 m-2'>
                         <img className='z-10 object-cover w-52 h-48 rounded-md' src="https://i.pinimg.com/736x/7c/0c/c9/7c0cc97b855fe411e11b30ea9809cba3.jpg" />
                         <p className='text-white text-sm ml-2 z-20 -top-6 relative'> Luis Pinot</p>    
                         <img className='relative rounded-full -top-[107%] border-2 border-blue-700 ml-1 z-20 object-cover w-10 h-10 ' src="https://pbs.twimg.com/profile_images/1561604184289558529/Bq62M5zI_400x400.jpg" />
