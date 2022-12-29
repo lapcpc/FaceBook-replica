@@ -51,7 +51,7 @@ function TopFeed() {
                 <ChevronLeftIcon className='h-6 w-6' />
             </div>
             <div  
-            className='cursor-pointer bg-white p-1 rounded-full shadow-md w-fit h-fit absolute top-[10%] lg:top-[25%]  left-[65%] z-50'
+            className='cursor-pointer bg-white p-1 rounded-full shadow-md w-fit h-fit absolute top-[10%] lg:top-[25%] left-[90%] lg:left-[60%] sm:left-[80%] z-50'
             onClick={slideRight}
             >
                 <ChevronRightIcon  onClick={slideRight} className='h-6 w-6' />
